@@ -1,0 +1,375 @@
+body {
+    background-color: #292727;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    /*justify-content: flex-start;*/
+}
+
+nav a{
+    margin-left: 6em;
+    color: white;
+    text-decoration: none;
+}
+nav #active{
+    color: #51a7ac;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+
+a:hover {
+    color: rgb(53, 122, 112);
+}
+
+section{
+    display: flex;
+}
+
+.mainText{
+    
+    padding: 3em;
+    flex-basis: 60%;
+    padding-top: 6em;
+    font-size: 17px;
+    
+}
+.mainText span{
+    color: green;
+}
+
+.mainImage{
+    flex-basis: 50%;
+    padding: 3em;
+}
+
+.mainImage img{
+    height: 400px;
+    width: 500px;
+    border-radius: 40px;
+    padding-right: 30px;
+}
+#mainHeading{
+    text-align: center;
+    color: #51a7ac;
+}
+main{
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+}
+body{
+    flex: 1;
+}
+
+.contactInfo{
+    padding-top: 3em;
+    padding-left: 6em;
+    flex-basis: 40%;
+    font-size: 25px;
+    color: white;
+}
+
+.contactForm{
+    /*padding-top: 2em;*/
+    padding-left: 3em;
+    flex-basis: 55%;
+    font-size: 20px;
+}
+
+/* .line{
+    flex-basis: 0.2em;
+    width: 1px;
+    background-color: #efe8e8;
+}
+*/
+
+input {
+    width: 35em;
+    height: 1em;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+textarea{
+    width: 36em;
+    height: 10em;
+    border-radius: 10px;
+}
+
+#thecontactform{
+    background-color: #1B1A1A;
+    height: 25em;
+    width: 27em;
+    border-radius: 2em;
+    padding-left: 2em;
+    padding-top: 2em;
+    margin-bottom: 15px;
+}
+/*.resetButton{
+    background-color: red;
+    margin-left: 2em;
+}
+*/
+
+.submitButton{
+    background-color: #51a7ac;
+    padding: 8px;
+    border:none;
+    border-radius: 10px;
+    width: 36em;
+}
+
+/* .resetButton:hover{
+    background-color: brown;
+}
+*/
+
+.submitButton:hover{
+    background-color: green;
+}
+
+#phonecallicon, #emailicon, #linkedinicon, #githubicon{
+    color: #51a7ac;
+    padding-right: 5px;
+
+}
+#homedownicon{
+    color: #51a7ac;
+    /*margin: 0 auto; display: block; text-align: center; */
+    margin-left: 200px;
+}
+
+.mainText button{
+    margin-left: 160px;
+    padding: 7px;
+    background-color: #51a7ac;
+    border-radius: 10px;
+}
+
+.pagefooter{
+    background-color: #214446;
+    color: white;
+    text-align: center;
+}
+
+table {
+    width: 50em;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #066a2c;
+}
+#myskills{
+    padding-left: 20px;
+}
+
+#myblogproject img{
+    width: 200px;
+    height: 100px;
+}
+
+#myblogproject span{
+    color: green;
+}
+
+.loginside {
+    background-color: #1B1A1A;
+    padding: 4em;
+    border-radius: 20px;
+    margin: 1em;
+    height: auto;
+    margin: auto;
+    
+}
+
+.loginside h3{
+    text-align: center;
+}
+
+.accountInput{
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.accountSubmit button{
+    background-color: #51a7ac;
+    padding: 8px;
+    border:none;
+    border-radius: 10px;
+    width: 485px;
+    margin-top: 20px;
+}
+
+.signupside {
+    background-color: #1B1A1A;
+    padding: 3em;
+    border-radius: 20px;
+    padding-top: 2em;
+    margin: auto;
+}
+.signupside h3{
+    text-align: center;
+}
+.login-google button{
+    background-color: #51a7ac;
+    padding: 8px;
+    border:none;
+    border-radius: 10px;
+    width: 485px;
+    margin-top: 8px;
+}
+
+#forgotpassword {
+    text-align: right;
+    margin-bottom: 5px;
+    color: #51a7ac;
+}
+
+.or{
+    text-align: center;
+    margin: 10px;
+}
+
+#signupprompt{
+    text-align: center;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#signupprompt a{
+    color: #51a7ac;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blog-post {
+    margin-right: 100px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.bloglistimage {
+    float: left;
+    margin-right: 20px;
+    max-width: 300px;
+    height: auto;
+}
+
+.blog-text {
+    overflow: hidden;
+    margin-right: 30px;
+}
+.blog-link {
+    display: block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #51a7ac;
+    font-weight: bold;
+}
+
+#blogheading{
+    text-align: center;
+}
+
+.blogImage img {
+    height: 400px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.blogdescription {
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.blogauthor {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blogcommentsection {
+    margin: 20px;
+}
+
+.blogcommentsection label{
+    color: #51a7ac;
+    margin-bottom: 20px;
+}
+
+.blogcommentsection input{
+    width: 400px;
+    height: 100px;
+}
+
+.blogcommentsection button{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #51a7ac;
+}
+
+.workBody-heading{
+    font-weight: bold;
+    text-align: center;
+}
+
+.portfolio-body{
+    padding-left: 20px;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    width: 48%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.portfolio-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.portfolio-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.portfolio-description {
+    margin-bottom: 10px;
+}
+
+.portfolio-link {
+    color: #51a7ac;
+    text-decoration: none;
+    font-weight: bold;
+}
